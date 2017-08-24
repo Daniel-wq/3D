@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1200px) {
+		#document .menu .content .right .two{
+			width: 420px;
+			height: 60px;
+			/*border: 1px solid darkgreen;
+			box-sizing: border-box;*/
+			margin: 0 auto;
+			margin-left: 64px;
+			margin-top: 30px;
+		}	
+		#document .menu .content .right .two .zuo{
+			background: #FF5259;
+			margin-bottom: 15px;
+		}	
+		#document .menu .content .right .two .you{
+			background: #03A9F8;
+			margin-left: 0px;
+		}	
+
+
+}

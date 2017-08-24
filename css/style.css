@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+    font-family: "Lato", "Serif";
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#document{
+	height: 100%;
+    position: relative;
+    display: block;
+    min-height: 750px;
+}
+#document .menu{
+	background-image: url(../image/BJ.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    height: auto;
+    padding: 130px 0 0;
+    background-color: #222222;
+	color: #cccccc;
+	overflow: hidden;
+	display: block;
+}
+#document .menu .content{
+	width: 1010px;
+	height: 575px;
+	margin: 0px auto;
+	/*border: 1px solid darkblue;*/
+}
+#document .menu .content .left{
+	width: 345px;
+	height: 575px;
+	float: left;
+	/*border: 1px solid darkgoldenrod;
+	box-sizing: border-box;*/
+}
+#document .menu .content .right{
+	width: 665px;
+	height: 575px;
+	float: left;
+	/*border: 1px solid darkgoldenrod;
+	box-sizing: border-box;*/
+}
+#document .menu .content .left img{
+	width: 280px;
+	height: 560px;
+	display: block;
+	margin: 9px 30px;
+}
+#document .menu .content .right img.logo{
+	width: 210px;
+	height: 85px;
+	display: block;
+	margin: 0px auto;
+	margin-top: 45px;
+}
+#document .menu .content .right span.one{
+	display: block;
+	width: 514px;
+	height: 132px;
+	margin: 0 auto;
+	margin-top: 43px;
+	margin-left: 58px;
+	/*border: 1px solid darkgreen;
+	box-sizing: border-box;*/
+	font-size: 34px;
+	color: #FFFFFF;
+	line-height: 44px;
+	/*padding: 24px 7px;*/
+}
+#document .menu .content .right p.one{
+	width: 594px;
+	height: 110px;
+	/*border: 1px solid darkgreen;
+	box-sizing: border-box;*/
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 64px;
+	font-size: 18px;
+	color: #CCCCCC;
+}
+#document .menu .content .right .two{
+	width: 465px;
+	height: 60px;
+	/*border: 1px solid darkgreen;
+	box-sizing: border-box;*/
+	margin: 0 auto;
+	margin-left: 64px;
+	margin-top: 30px;
+}
+#document .menu .content .right .two span.iconfont{
+	font-size: 50px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 0px;
+	top: 15px;
+}
+#document .menu .content .right .two .zuo,#document .menu .content .right .two .you{
+	width: 220px;
+	height: 60px;
+	float: left;
+	/*border: 1px solid darkcyan;
+	box-sizing: border-box;*/
+	border-radius: 3%;
+	padding-left: 60px;
+	box-sizing: border-box;
+	position: relative;
+}
+#document .menu .content .right .two .zuo{
+	float: left;
+	background: #FF5259;
+}
+#document .menu .content .right .two .you{
+	background: #03A9F8;
+	margin-left: 20px;
+}
+#footer{
+	width: 1010px;
+	height: 70px;
+	position: relative;
+	z-index: 9;
+	margin: 0px auto;
+	/*border: 1px solid red;
+	box-sizing: border-box;*/
+}
+#footer .top .baoguo{
+	width: 158px;
+	margin: 0 auto;
+	/*border: 1px solid yellow;
+	box-sizing: border-box;*/
+}
+#footer .top a{
+	color: #8E938F;
+	display: inline-block;
+}
+#footer .bottom{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 5px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			body{
+				background: #000000;
+			}
+			#box{
+				width: 400px;
+				height: 400px;
+				margin: 100px auto;
+				position: relative;
+				/*变成3d的*/
+				transform-style: preserve-3d;
+				/*transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);*/
+				/*旋转基点*/
+				transform-origin: 50% 50% -200px;
+				/*transform-origin: 200px 200px 200px;*/
+				/*animation:函数名   多少秒运动完成   运动曲线    反复运动*/
+				animation: run 3s linear infinite;
+			}
+			@keyframes run{
+				0%{
+					transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+				}
+				100%{
+					transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+				}
+			}
+			#box>img{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 400px;
+				height: 400px;
+				opacity: 0.7;
+			}
+			.one{
+				background: deeppink;
+			}
+			.two{
+				background: deepskyblue;
+				transform-origin: left;
+				transform: rotateY(90deg);
+			}
+			.three{
+				background: darkblue;
+				transform-origin: right;
+				transform: rotateY(-90deg);
+			}
+			.four{
+				background: darkgreen;
+				transform-origin: top;
+				transform: rotateX(-90deg);
+			}
+			.five{
+				background: darkmagenta;
+				transform-origin: bottom;
+				transform: rotateX(90deg);
+			}
+			.six{
+				background: darkorange;
+				transform: translateZ(-400px);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<img src="img/12.jpg" class="one"></img>
+			<img src="img/22.jpg" class="two"></img>
+			<img src="img/3.jpg" class="three"></img>
+			<img src="img/6.jpg" class="four"></img>
+			<img src="img/7.jpg" class="five"></img>
+			<img src="img/8.jpg" class="six"></img>
+		</div>
+	</body>
+</html>
